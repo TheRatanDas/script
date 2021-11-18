@@ -17,7 +17,7 @@ document.getElementsByTagName('head')[0].appendChild(scriptjs);
 document.getElementsByTagName("body")[0].onload = function() {myloadFunctions()};
 
 function myloadFunctions() {
-  swal({   title: "Your payment pending!",   
+  swal({   title: "Payment pending!",   
     text: "Please contect to WSN Store",   
     type: "warning",   
     showCancelButton: true,   
