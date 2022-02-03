@@ -1,10 +1,10 @@
-<?php
+t<?php
 if($_GET['id'] = 1){
 session_start();
 $_SESSION["id"] = 'Fast2Talk';
 }
 else {
-$_SESSION["id"] = null;
+exit;
 }
 if($_SESSION["id"] != 'Fast2Talk'){
 exit;
